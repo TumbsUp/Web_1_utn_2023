@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <div class="input">
+            <label for="id">NAME</label>
+            <input type="NAME" name="id" id="id" placeholder="Digite su nombre" maxlength="10">
+        </div>
+        
+        <div class="input">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+
+        <div class="input">
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div class="input">
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+
+        <div class="input">
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora">
+        </div>
+
+        <div class="input">
+            <label for="correo">GMAIL</label>
+            <input type="email" name="correo" id="correo">
+        </div>
+
+        <div class="input">
+            <label for="url">url</label>
+            <input type="url" name="url" id="url">
+        </div>
+
+        <div class="input">
+            <label for="archivo">archivo</label>
+            <input type="file" name="archivo" id="archivo">
+        </div>
+
+        <div class="input">
+            <label for="descrip">Descripción:</label>
+            <input type="number" name="num" id="num" >
+        </div>
+
+        <div class="input">
+            <label for="descrip">Descripción:</label>
+            <input type="range" name="edad" id="edad" min="15" max="90">    
+        </div>
+
+        <div class="input">
+            <label for="codigo">Password</label>
+            <input type="hidden" name="codigo" id="codigo">
+        </div>
+
+        <div class="input">
+            <label for="descrip">Descripción:</label>
+            <textarea name="descriptions" id="descriptions" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="input">
+            <label for="comida">Pizza: </label>
+            <input type="radio" name="comida" value="1">
+
+            <label for="comida">Hamburguesa: </label>
+            <input type="radio" name="comida" value="2">
+
+            <label for="comida">Donas: </label>
+            <input type="radio" name="comida" value="3">
+
+            <label for="comida">Hot Dogs: </label>
+            <input type="radio" name="comida" value="4">
+        </div>
+
+        <div class="input">
+            <label for="bebidas">Natural: </label>
+            <input type="checkbox" name="bebida" value="1">
+
+            <label for="bebidas">Gaseosa: </label>
+            <input type="checkbox" name="bebida" value="2">
+
+            <label for="bebidas">Alcoholicas: </label>
+            <input type="checkbox" name="bebida" value="3">
+
+            <label for="bebidas">Otros: </label>
+            <input type="checkbox" name="bebida" value="4">
+        </div>
+
+        <div class="input">
+            <label for="descrip">Descripción:</label>
+            <select name="marca" id="marca">
+                <option value="1">Nissan</option>
+                <option value="2" selected>Toyota</option>
+                <option value="3">Mitsubishi</option>
+                <option value="4"> AUDI</option>
+
+
+
+            </select>    
+        </div>
+
+        <input type="submit" value="SEND">
+        <input type="reset" value="CLEAN">
+    </form>
+</body>
+</html>

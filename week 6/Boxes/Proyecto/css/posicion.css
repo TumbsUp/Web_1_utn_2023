@@ -1,0 +1,110 @@
+div{
+
+    width: 200px;
+    height: 200px;
+    color: rgb(2, 11, 19);
+
+
+
+
+
+}
+
+
+#div1{
+
+    background-color: blueviolet;
+    border-radius: 80px;
+    background-image: url("images/gatito.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 13%;
+
+
+
+}
+
+#div2{
+
+    background-color: rgb(110, 107, 117);
+    width: 65%;
+    float: right;
+    padding-left: 15%;
+
+
+
+}
+
+
+#div3{
+
+    background-color: rgb(43, 226, 205);
+    position: relative;
+    left: 500px;
+
+
+}
+
+#div4{
+
+    background-color: rgb(226, 144, 43);
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+
+
+#div5{
+
+    background-color: blue;
+    position: absolute;
+    top: 500px;
+
+
+    width: 400px;
+
+}
+
+
+
+
+#div6{
+
+    background-color: brown;
+    position: fixed;
+    bottom: 300px;
+    width: 50px;
+}
+#div6 img{
+    width: 35px;
+    height: 35px;
+}
+#div6 img:hover{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+#div1,#div2{
+
+    display: inline-block;
+
+}
+
+#div3, #div4{
+
+    width: 700px;
+    height: 350px;
+
+
+
+
+
+}
