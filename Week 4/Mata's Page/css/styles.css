@@ -1,0 +1,59 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+}
+#Principal{
+    background-color: orangered;
+}
+#Body{
+    background-color:orange;
+}
+#Me{
+    width: 210px;
+    height: 210px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#name{
+    margin-right: 700px;
+    margin-top: 40px;
+}
+#Title1{
+    margin-left:50px;
+}
+#Table1{
+    background-color: brown;
+}
+#Int_Ref{
+    padding-left: 30%;
+}
+#ref{
+    text-decoration: none;
+    color: brown;
+}
+#ref:hover{
+    color: yellow;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: orangered;
+    justify-content: space-between;
+}
+.Nav{
+    background-color: orangered;
+    color: black;
+}
+ul.Nav>li{
+    display: inline;
+    margin: 0;
+    border-right: 1px solid;
+    padding: 0px 5px;
+}
+ul.Nav>li>a{
+    text-decoration: none;
+    color: black;
+}
+ul.Nav>li>a:hover{
+    color: white;
+}
