@@ -1,0 +1,9 @@
+div.Text_Fill> input, label{
+    display: inline-flex;
+}
+div.Text_Fill> label{
+    width: 150px;
+}
+div.Text_Fill{
+    margin: 10px 30px;
+}
